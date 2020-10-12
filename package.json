@@ -1,0 +1,22 @@
+{
+  "name": "employeemanagementsystem",
+  "version": "1.0.0",
+  "description": "This application allows employer to build a solution for managing a company's employees using node, inquirer, and MySQL.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sxiong6901/EmployeeManagementSystem.git"
+  },
+  "author": "sxiong6901",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sxiong6901/EmployeeManagementSystem/issues"
+  },
+  "homepage": "https://github.com/sxiong6901/EmployeeManagementSystem#readme"
+}
