@@ -18,10 +18,5 @@
   "bugs": {
     "url": "https://github.com/sxiong6901/EmployeeManagementSystem/issues"
   },
-  "homepage": "https://github.com/sxiong6901/EmployeeManagementSystem#readme",
-  "dependencies": {
-    "as-table": "^1.0.55",
-    "figlet": "^1.5.0",
-    "mysql": "^2.18.1"
-  }
+  "homepage": "https://github.com/sxiong6901/EmployeeManagementSystem#readme"
 }
