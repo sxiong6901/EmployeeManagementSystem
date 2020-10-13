@@ -1,12 +1,14 @@
-
 const inquirer = require('inquirer');
 const figlet = require('figlet');
+
 const connection = require("./lib/SQL_login");
 const commandMenuChoices = require('./lib/commandMenu');
 const questions = require('./lib/questions');
 
+
 const InquirerFunctions = require('./lib/inquirer');
 const SQLquery = require('./lib/SQL_queries');
+
 const inquirerTypes = [
     'input', 'confirm', 'list'
 ]
@@ -20,14 +22,14 @@ console.log(figlet.textSync('Employee Management', {
 
 mainMenu();
 
+
 function mainMenu() {
 
- 
+
     const menuPrompt = new InquirerFunctions(inquirerTypes[2], 'menuChoice', questions.mainMenuPrompt, commandMenuChoices);
     
+    inquirer.prompt([menuPrompt.ask()]).then(operation => {
 
-    inquirer
-        .prompt([menuPrompt.ask()]).then(operation => {
             const query1 = "SELECT role.title FROM role"
             const compRolesArrayQuery = new SQLquery(query1);
             const depNameQuery = "SELECT department.name FROM department";
