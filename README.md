@@ -6,7 +6,6 @@
   * [Installation](#Installation)
   * [License](#license)
   * [Contributors](#Contributors)
-  * [Preview](#Preview)
   * [Questions](#Questions)
 
   ## Description:
@@ -34,9 +33,6 @@ Run npm install to install all dependencies. To use the application locally, run
   
   ## Contributors
   https://github.com/sxiong6901
-  
-  ## Preview
-  ![Testing]()
   
  
   ## Questions
