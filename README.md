@@ -10,15 +10,17 @@
   * [Questions](#Questions)
 
   ## Description:
-  This application can be used to write, save, and delete notes that you have written. This application will use an express backend and save and retrieve note data from a JSON file.
+    This application can do the following:
+   
+    Add departments, roles, employees
+    View departments, roles, employees
+    Update employee roles
+    Update employee managers
+    View employees by manager
+    Delete departments, roles, and employees
 
-   Direct link to application: 
-  
+View the total utilized budget of a department -- ie the combined salaries of all employees in that department
   ## Installation
-  Clone the repository to your local development environment.
-  Navigate to the developer-profile-generator folder using the command prompt.
-
-  Run npm install to install all dependencies. To use the application locally, run node server.js in your CLI, and then open http://localhost:3000 in your preferred browser. The Note Taker app is live on Heroku for you to use as well.
 
 
 
