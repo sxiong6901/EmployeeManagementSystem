@@ -21,11 +21,13 @@
 
   View the total utilized budget of a department -- ie the combined salaries of all employees in that department
   ## Installation
-  Use the MySQL NPM package to connect to your MySQL database and perform queries.
+Clone the repository to your local development environment.
 
-  Use InquirerJs NPM package to interact with the user via the command-line.
+git clone https://github.com/sxiong6901/EmployeeManagementSystem
 
-  Use console.table to print MySQL rows to the console. There is a built-in version of console.table, but the NPM package formats the data a little better for our purposes.
+Navigate to the developer-profile-generator folder using the command prompt.
+
+Run npm install to install all dependencies. To use the application locally, run node index.js in your CLI.
 
   ## License
   MIT License
