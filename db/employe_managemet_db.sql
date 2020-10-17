@@ -1,8 +1,8 @@
-DROP DATABASE employe_managemet_db_setup;
+DROP DATABASE employe_managemet_db;
 
-CREATE DATABASE employe_managemet_db_setup; 
+CREATE DATABASE employe_managemet_db; 
 
-USE employe_managemet_db_setup;
+USE employe_managemet_db;
 
 
 DROP TABLE IF EXISTS department;

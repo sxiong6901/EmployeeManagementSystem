@@ -1,4 +1,4 @@
-USE employee_management_db;
+USE employee_management_db_setup;
 INSERT INTO department (name)
  VALUES ("IT"),
 		("Production"),
@@ -26,14 +26,14 @@ VALUES ("Manager", 65000, 1),
 USE employee_management_db;
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id) 
-VALUES  ("Joel", "Iles", 1, NULL ),
-		("Theresa", "Louise", 2, 1),
-		("Mitch", "Young", 3, NULL),
-		("Duke", "Johnson", 4, 3),
-		("Josh", "Johnson", 5, 3),
-		("Leslie", "Knope", 6, NULL),
-		("Ron", "Swanson", 7, 6),
-		("April", "Ludgate",8, 6),
-        ("Donna", "Awesome", 9, NULL),
-        ("Tom", "Haverford", 10, 9);
+VALUES  ("John", "Smith", 1, NULL ),
+		("Mary", "Jane", 2, 1),
+		("John", "Doe", 3, NULL),
+		("Lance", "Johnson", 4, 3),
+		("Kathryn", "Johnson", 5, 3),
+		("Jane", "Love", 6, NULL),
+		("Ronald", "Watson", 7, 6),
+		("Jack", "Sweet",8, 6),
+        ("Grace", "Wise", 9, NULL),
+        ("Howard", "Ellis", 10, 9);
 -- SELECT * FROM employee;
