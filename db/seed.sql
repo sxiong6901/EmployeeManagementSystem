@@ -1,39 +1,59 @@
-USE employee_management_db_setup;
-INSERT INTO department (name)
- VALUES ("IT"),
-		("Production"),
-		("Engineering"),
-		("Accounting"),
-		("Sales");
--- SELECT * FROM department;
+USE cms;
 
-INSERT INTO role (title, salary, department_ID) 
-VALUES ("Manager", 65000, 1),
-("IT Tech", 50000, 1),
-("Manager", 50000, 2),
-("Team Lead", 40000, 2),
-("Operator", 30000, 2),
-("Manager", 110000 , 3),
- ("Software Engineer", 85000, 3),
- ("Lead Engineer", 100000, 3),
-("Manager", 85000, 4),
-("Accountant", 70000, 4),
-("Manager", 100000, 5),
-("Sales Lead", 90000, 5),
-("Salesperson", 70000, 5);
--- SELECT * FROM role;
+INSERT into department (name) 
+    VALUES ("Sales");
+INSERT into department (name) 
+    VALUES ("IT");
+INSERT into department (name) 
+    VALUES ("Bob");
+INSERT into department (name) 
+    VALUES ("HR");
 
-USE employee_management_db;
+INSERT into role (title, salary, department_id) 
+    VALUES ("Sales Manager", 100000, 1);
+INSERT into role (title, salary, department_id) 
+    VALUES ("Sales person", 50000, 1);
+INSERT into role (title, salary, department_id) 
+    VALUES ("IT Manager", 100000, 2);
+INSERT into role (title, salary, department_id) 
+    VALUES ("Engineer", 900000, 2);
+INSERT into role (title, salary, department_id) 
+    VALUES ("Bob Manager", 100000, 3);
+INSERT into role (title, salary, department_id) 
+    VALUES ("Artist Bob", 30000, 3);
+INSERT into role (title, salary, department_id) 
+    VALUES ("Musician Bob", 30000, 3);
+INSERT into role (title, salary, department_id) 
+    VALUES ("Comedian Bob", 30000, 3);
+INSERT into role (title, salary, department_id) 
+    VALUES ("Counselor", 80000, 4);
 
-INSERT INTO employee (first_name, last_name, role_id, manager_id) 
-VALUES  ("John", "Smith", 1, NULL ),
-		("Mary", "Jane", 2, 1),
-		("John", "Doe", 3, NULL),
-		("Lance", "Johnson", 4, 3),
-		("Kathryn", "Johnson", 5, 3),
-		("Jane", "Love", 6, NULL),
-		("Ronald", "Watson", 7, 6),
-		("Jack", "Sweet",8, 6),
-        ("Grace", "Wise", 9, NULL),
-        ("Howard", "Ellis", 10, 9);
--- SELECT * FROM employee;
+INSERT into employee (first_name, last_name, role_id, manager_id) 
+    VALUES ("John H.", "Patterson", 1, null);
+INSERT into employee (first_name, last_name, role_id, manager_id) 
+    VALUES ("Mary Kay", "Ash", 2, 1);
+INSERT into employee (first_name, last_name, role_id, manager_id) 
+    VALUES ("Dale", "Carnegie", 2, 1);
+
+INSERT into employee (first_name, last_name, role_id, manager_id) 
+    VALUES ("Montgomery", "Scott", 3, null);
+INSERT into employee (first_name, last_name, role_id, manager_id) 
+    VALUES ("Angus", "MacGyver", 4, 3);
+INSERT into employee (first_name, last_name, role_id, manager_id) 
+    VALUES ("Kaylee", "Frye", 4, 3);
+INSERT into employee (first_name, last_name, role_id, manager_id) 
+    VALUES ("Cyrus", "Smith", 4, 3);
+
+INSERT into employee (first_name, last_name, role_id, manager_id) 
+    VALUES ("Bob", "The-Minion", 5, null);
+INSERT into employee (first_name, last_name, role_id, manager_id) 
+    VALUES ("Bob", "Ross", 6, 5);
+INSERT into employee (first_name, last_name, role_id, manager_id) 
+    VALUES ("Bob", "Marley", 7, 5);
+INSERT into employee (first_name, last_name, role_id, manager_id) 
+    VALUES ("Bob", "Dylan", 7, 5);
+INSERT into employee (first_name, last_name, role_id, manager_id) 
+    VALUES ("Bob", "Hope", 8, 5);
+
+INSERT into employee (first_name, last_name, role_id, manager_id) 
+    VALUES ("Deanna", "Troi", 9, null);

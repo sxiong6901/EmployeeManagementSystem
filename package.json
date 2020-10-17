@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/sxiong6901/EmployeeManagementSystem/issues"
   },
-  "homepage": "https://github.com/sxiong6901/EmployeeManagementSystem#readme"
+  "homepage": "https://github.com/sxiong6901/EmployeeManagementSystem#readme",
+  "dependencies": {
+    "console-table": "^0.1.2",
+    "index.js": "0.0.3",
+    "inquirer": "^7.3.3",
+    "loader.js": "^4.7.0"
+  }
 }
