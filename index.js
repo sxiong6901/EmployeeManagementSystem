@@ -6,7 +6,7 @@ const db = new Database({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "Coding2020",
+    password: "Coding2020!",
     database: "cms"
   });
   
