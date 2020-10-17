@@ -21,8 +21,10 @@
   "homepage": "https://github.com/sxiong6901/EmployeeManagementSystem#readme",
   "dependencies": {
     "console-table": "^0.1.2",
+    "console.table": "^0.10.0",
     "index.js": "0.0.3",
     "inquirer": "^7.3.3",
-    "loader.js": "^4.7.0"
+    "loader.js": "^4.7.0",
+    "mysql": "^2.18.1"
   }
 }
